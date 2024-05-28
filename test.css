@@ -1,0 +1,46 @@
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
+
+.container{
+    border: 3px solid black;
+    width: fit-content;
+    border-radius: 6px;
+    margin: 16px auto;
+}
+
+.one, .two, .three{
+    float: right;
+    background-color: blueviolet;
+    margin: 5px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    border-radius: 6px;
+    font-weight: bolder;
+    font-size: 30px;
+    font-family: cursive;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.float-Fixer{
+    clear: both;
+}
+
+.one:hover, .two:hover, .three:hover{
+    background-color: red;
+}
+
+header h1{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    text-transform: capitalize;
+    word-spacing: 10px;
+    cursor: pointer;
+}
